@@ -1,0 +1,46 @@
+#popup_tabak_overlay {
+	display:none;
+	height:100%;	width:100%;
+	left:0;		top:0;
+	position:fixed;
+	z-index:100;
+}
+
+.popup_tabak {
+	background:url(pop_up.png) center;
+	width:900px;		height:900px;
+	position:absolute;
+	top: 75px;		left: 50%;
+	margin-left: -400px;
+	z-index:101;
+	display: none;
+}
+
+.popup_tabak .no-thanks {
+	display: none;
+	color: #fff;
+	cursor: pointer;
+	font: normal .9em Arial, sans-serif;
+	position: absolute;
+	top: 840px;
+	left: 520px;
+	text-decoration: underline;
+}
+.popup_tabak .no-thanks:hover {
+	text-decoration: none;
+}
+
+.popup_tabak .yes {
+	display: none;
+	color: #fff;
+	cursor: pointer;
+	font: normal .9em Arial, sans-serif;
+	position: absolute;
+	top: 840px;
+	left: 250px;
+	text-decoration: underline;
+}
+.popup_tabak .yes:hover {
+	text-decoration: none;
+}
+
